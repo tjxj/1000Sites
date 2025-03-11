@@ -2,4 +2,4 @@
 https://invest.zhanglearning.com/* /subdomains/invest/:splat 200
 https://ai-navigate.zhanglearning.com/* /subdomains/AiNavigateWebsites/:splat 200
 https://ml-guide.zhanglearning.com/* /subdomains/MLGuide/:splat 200
-https://ml-blog.zhanglearning.com/* /subdomains/机器学习blog/:splat 200
+https://ml-blog.zhanglearning.com/* /subdomains/machineLearningBlog/:splat 200
