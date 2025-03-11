@@ -1,5 +1,17 @@
 /* /:splat 200
-/subdomain/invest/* /subdomains/invest/:splat 200
-/subdomain/ai-navigate/* /subdomains/AiNavigateWebsites/:splat 200
-/subdomain/ml-guide/* /subdomains/MLGuide/:splat 200
-/subdomain/ml-blog/* /subdomains/machineLearningBlog/:splat 200
+
+# invest subdomain
+https://invest.zhanglearning.com/ /subdomains/invest/index.html 200
+https://invest.zhanglearning.com/* /subdomains/invest/:splat 200
+
+# ai-navigate subdomain
+https://ai-navigate.zhanglearning.com/ /subdomains/AiNavigateWebsites/index.html 200
+https://ai-navigate.zhanglearning.com/* /subdomains/AiNavigateWebsites/:splat 200
+
+# ml-guide subdomain
+https://ml-guide.zhanglearning.com/ /subdomains/MLGuide/index.html 200
+https://ml-guide.zhanglearning.com/* /subdomains/MLGuide/:splat 200
+
+# ml-blog subdomain
+https://ml-blog.zhanglearning.com/ /subdomains/machineLearningBlog/index.html 200
+https://ml-blog.zhanglearning.com/* /subdomains/machineLearningBlog/:splat 200
