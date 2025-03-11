@@ -1,5 +1,4 @@
-   # 将二级域名代理到对应的子目录
-   /invest/* /subdomains/invest/:splat 200
-   /ai-navigate/* /subdomains/AiNavigateWebsites/:splat 200
-   /ml-guide/* /subdomains/MLGuide/:splat 200
-   /ml-blog/* /subdomains/machineLearningBlog/:splat 200
+https://invest.zhanglearning.com/* https://zhanglearning.com/subdomains/invest/:splat 200
+https://ai-navigate.zhanglearning.com/* https://zhanglearning.com/subdomains/AiNavigateWebsites/:splat 200
+https://ml-guide.zhanglearning.com/* https://zhanglearning.com/subdomains/MLGuide/:splat 200
+https://ml-blog.zhanglearning.com/* https://zhanglearning.com/subdomains/machineLearningBlog/:splat 200
