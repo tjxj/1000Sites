@@ -24,15 +24,18 @@ export async function onRequest(context) {
           return context.next();
       }
   
-      // 构建新的 URL 路径
-      const path = url.pathname === '/' ? '/index.html' : url.pathname;
+      // 如果是根路径，添加 index.html
+      let path = url.pathname;
+      if (path === '/' || path === '') {
+        path = '/index.html';
+      }
+  
+      // 构建新的请求
       const newUrl = new URL(targetPath + path, url.origin);
+      const newRequest = new Request(newUrl, context.request);
       
-      // 获取响应
-      const response = await context.next();
-      const newResponse = new Response(response.body, response);
-      
-      return newResponse;
+      // 返回新的响应
+      return context.env.ASSETS.fetch(newRequest);
     }
   
     return context.next();
